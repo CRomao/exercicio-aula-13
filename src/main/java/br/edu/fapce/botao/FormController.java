@@ -1,4 +1,4 @@
-package br.edu.fapce.formulario;
+package br.edu.fapce.botao;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;

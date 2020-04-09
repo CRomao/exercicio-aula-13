@@ -1,4 +1,4 @@
-package br.edu.fapce.formulario;
+package br.edu.fapce.botao;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("form"));
+        scene = new Scene(loadFXML("botao"));
         stage.setScene(scene);
         stage.show();
     }
